@@ -69,6 +69,19 @@ body {
     line-height: 1.5rem;
 }
 
+/* sticky footer */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.site-content {
+    flex: 1;
+}
+
 a {
     text-decoration: none;
     color: #333333;
